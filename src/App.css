@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #e6fdfb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgb(210, 197, 212), rgb(168, 165, 166));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgb(177, 173, 177), rgb(242, 196, 202))
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  #blah{
+    height: 127px;
+  }
+
+.change{
+  font-size: 32px;
+  margin-left: 17%;
+}
+p{
+  color: red;
+}
+.cent{
+  margin-left: 23%;
+}
+.mrqe{
+  background-color: red;
+  color: black;
 }
